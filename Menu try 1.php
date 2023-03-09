@@ -12,11 +12,7 @@ function readNumber() {
     }
 }
 
-
-
-$choice = (int)readline("Please select from below what action you would like to take:");
-
-switch ($choice) {
+switch (readNumber()) {
     case "View Movie list (1)";
         //enter code/function 
         break;
